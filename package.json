@@ -1,0 +1,35 @@
+{
+  "name": "smart-loader-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "dev": "",
+    "test": "npm run lint",
+    "build": "",
+    "lint": "eslint . --ignore-path .gitignore && prettier --ignore-path .gitignore -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\"",
+    "lint:fix": "eslint . --ignore-path .gitignore --fix && prettier --ignore-path .gitignore --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Secret333Boy/smart-loader-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Secret333Boy/smart-loader-bot/issues"
+  },
+  "homepage": "https://github.com/Secret333Boy/smart-loader-bot#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-metarhia": "^7.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-sonarjs": "^0.11.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1"
+  }
+}
