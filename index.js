@@ -1,11 +1,13 @@
 require('dotenv').config();
-const { Telegraf } = require('telegraf');
-const token = process.env.BOT_TOKEN;
-if (!token) throw new Error('Token should be provided');
-const bot = new Telegraf(token);
-bot.start((ctx) => {
-  ctx.reply('Hey!');
+require('./bot.js');
+const express = require('express');
+
+const app = express();
+app.use(express.json());
+app.get('*', (req, res) => {
+  res.status(404).send();
 });
-bot.launch();
-process.once('SIGINT', () => bot.stop('SIGINT'));
-process.once('SIGTERM', () => bot.stop('SIGTERM'));
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server has been started on port ${port}`);
+});

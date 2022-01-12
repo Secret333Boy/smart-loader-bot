@@ -35,6 +35,10 @@
   },
   "dependencies": {
     "dotenv": "^11.0.0",
-    "telegraf": "^4.5.2"
+    "express": "^4.17.2",
+    "i": "^0.3.7",
+    "npm": "^8.3.0",
+    "telegraf": "^4.5.2",
+    "utoolslib": "^0.0.2"
   }
 }
