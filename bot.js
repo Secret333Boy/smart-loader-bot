@@ -18,7 +18,6 @@ bot.command('weather', async (ctx) => {
     const data = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=Kyiv&appid=${process.env.OPEN_WEATHER_API_KEY}&lang=ru&units=metric`
     );
-    console.log(data);
     const weather = `Погода: ${data.weather[0].description}
 Температура сейчас: ${data.main.temp}°C
 Минимум за день: ${data.main.temp_min}°C
