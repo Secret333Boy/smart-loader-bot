@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "dev": "nodemon .",
+    "start": "node ./src/",
+    "dev": "nodemon ./src/",
     "test": "npm run lint",
     "build": "",
     "lint": "eslint . --ignore-path .gitignore && prettier --ignore-path .gitignore -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\"",
@@ -40,8 +40,6 @@
     "dotenv": "^11.0.0",
     "express": "^4.17.2",
     "express-rate-limit": "^6.1.0",
-    "i": "^0.3.7",
-    "npm": "^8.3.0",
     "telegraf": "^4.5.2",
     "utoolslib": "^0.0.2"
   }
