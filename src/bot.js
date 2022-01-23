@@ -1,4 +1,5 @@
-const { Telegraf, Scenes, session } = require('telegraf');
+const { Telegraf, Scenes } = require('telegraf');
+const session = require('./session.js');
 const menuScene = require('./controllers/menu.js');
 const weatherScene = require('./controllers/weather.js');
 
