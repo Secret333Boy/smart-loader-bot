@@ -12,6 +12,12 @@ menuScene.enter((ctx) => {
 menuScene.command('weather', (ctx) => {
   ctx.scene.enter('weather');
 });
+menuScene.command('about', (ctx) => {
+  ctx.scene.enter('about');
+});
+menuScene.command('settings', (ctx) => {
+  ctx.scene.enter('settings');
+});
 menuScene.hears('hello', (ctx) => {
   ctx.replyWithPhoto(
     `https://img.freepik.com/free-vector/hello-greeting-typography-style-vector_53876-56876.jpg?size=338&ext=jpg`
