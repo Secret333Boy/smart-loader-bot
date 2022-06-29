@@ -1,3 +1,3 @@
 # mrJarvisBot
 
-**Универсальный бот-ассистент** для различных задач
+**Universal useful bot
