@@ -2,7 +2,7 @@ const { Scenes, Markup } = require('telegraf');
 const menuScene = new Scenes.BaseScene('menu');
 menuScene.enter((ctx) => {
   ctx.reply(
-    'Hey!',
+    'Добро пожаловать в главное меню!',
     Markup.keyboard([
       ['/start', '/weather'],
       ['/settings', '/about'],
