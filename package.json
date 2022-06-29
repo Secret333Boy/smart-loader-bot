@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/Secret333Boy/mrJarvisBot#readme",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-metarhia": "^7.0.1",
+    "eslint": "^8.18.0",
+    "eslint-config-metarhia": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-sonarjs": "^0.11.0",
@@ -37,7 +37,7 @@
     "prettier": "^2.5.1"
   },
   "dependencies": {
-    "dotenv": "^11.0.0",
+    "dotenv": "^16.0.1",
     "express": "^4.17.2",
     "express-rate-limit": "^6.1.0",
     "mongoose": "^6.1.7",
