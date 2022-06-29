@@ -9,7 +9,7 @@
     "test": "npm run lint",
     "build": "",
     "lint": "eslint . --ignore-path .gitignore && prettier --ignore-path .gitignore -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\"",
-    "lint:fix": "eslint . --ignore-path .gitignore --fix && prettier --ignore-path .gitignore --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\"",
+    "lint-fix": "eslint . --ignore-path .gitignore --fix && prettier --ignore-path .gitignore --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.yml\"",
     "prepare": "husky install"
   },
   "repository": {
