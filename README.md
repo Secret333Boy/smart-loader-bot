@@ -1,3 +1,3 @@
 # mrJarvisBot
 
-\*\*Universal useful bot
+**Universal useful bot** for any purposes
